@@ -22,7 +22,7 @@ class UtilsTestCase(TestCase):
         count_dict = dict()
         for row in count_list:
             count_dict[row["Country"]] = row["count"]
-
+        # demo comment
         self.assertEqual(count_dict["United States"], 4, "Count for United States should be 4")
         self.assertEqual(count_dict["Canada"], 2, "Count for Canada should be 2")
         self.assertEqual(count_dict["United Kingdom"], 1, "Count for UK should be 1")
